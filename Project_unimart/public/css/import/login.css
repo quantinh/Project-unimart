@@ -1,0 +1,75 @@
+/* ============= Login-register ================ */
+.container {
+    background-color: var(--body-color);
+}
+.member-title {
+    font-size: 2.6rem;
+    margin-bottom: 25px;
+}
+.member-register {
+    margin-bottom: 0px;
+    font-size: 1.5rem;
+}
+.paragraph-reg {
+    font-size: 1.5rem;
+}
+.background {
+    width: 90%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.form-block {
+    padding: 25px;
+    max-width: 400px;
+}
+.heading-title {
+    font-size: 2.6rem;
+}
+#fullname-reg,
+#username-reg,
+#password-reg,
+#email-reg,
+#gender {
+    font-size: 1.4rem;
+}
+#gender {
+    color: var(--text-qnt-cart);
+}
+.box-pass {
+    position: relative;
+}
+.eye {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+.form-control {
+    font-size: 1.5rem;
+    border-radius: 4px;
+    height: 35px;
+    background: var(--body-color);
+}
+.no-reg {
+    font-size: 1.4rem;
+    margin-right: 10px;
+}
+.forgot-pass {
+    font-size: 1.4rem;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+.forgot-pass:hover {
+    text-decoration: none;
+}
+half .btn {
+    height: 54px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.btn-submit {
+    font-size: 1.5rem;
+}
+.remember {
+    font-size: 1.3rem;
+}

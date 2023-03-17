@@ -1,0 +1,19 @@
+.back-home {
+    text-align: center;
+}
+.back-home a {
+    font-size: 1.4rem;
+    display: inline-block;
+    padding: 8px 63px;
+    background: #e6e6ea;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: all 0.25s;
+}
+.back-home a:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+    color: var(--body-color);
+    background: var(--blue-color);
+    color: black;
+}

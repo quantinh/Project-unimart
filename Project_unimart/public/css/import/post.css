@@ -1,0 +1,96 @@
+/* ============= About-contact ============= */
+.main-content {
+    width: 100%;
+    margin-top: 50px;
+    background: var(--body-color);
+    padding: 20px 15px;
+    margin-bottom: 50px;
+}
+.section-title-about {
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+.create-date-about {
+    position: relative;
+    display: block;
+    font-size: 13px;
+    color: var(--background-cat-heading);
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.create-date-about:before {
+    position: absolute;
+    content: "\f017";
+    font-family: "FontAwesome";
+    top: 0;
+    left: 0;
+    font-size: 14px;
+}
+#detail-blog-wp .detail p {
+    font-size: 1.4rem;
+    color: var(--name-item-cart);
+    line-height: 28px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+#detail-blog-wp .detail p strong {
+    font-weight: 500;
+    color: var(--name-item-cart);
+}
+.section {
+    margin: 10px 0 20px 0;
+}
+.section-detail-post {
+    padding: 15px;
+}
+.list-item {
+    list-style: none;
+}
+.item-post {
+    display: flex;
+    padding-bottom: 30px;
+}
+.item-post-link {
+    width: 30%;
+}
+.item-post-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.info {
+    width: 70%;
+    padding-left: 20px;
+}
+.title-link {
+    display: block;
+    font-size: 21px;
+    line-height: 30px;
+    color: #1f1f1f;
+    padding-bottom: 5px;
+}
+.create-date {
+    position: relative;
+    display: block;
+    font-size: 13px;
+    color: var(--background-cat-heading);
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+.desc {
+    line-height: 26px;
+    color: var(--text-desc-color);
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -moz-line-clamp: 3;
+    -o-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    max-height: 100%;
+    overflow: hidden;
+}

@@ -1,0 +1,174 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+	background: url(../images/backgrounds/background-admin-login.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.box-layout-info {
+    margin-top: 80px !important;
+    width: 30%;
+    margin: 0 auto;
+    padding: 4em 2em;
+    background: rgba(255, 255, 255, 0.07);
+    -webkit-box-shadow: 0 6px 12px 0 #252525;
+    -moz-box-shadow: 0 6px 12px 0 #252525;
+    box-shadow: 0 6px 43px 0 #00000066;
+}
+.box-form h2 {
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1.5em;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 4px #000;
+}
+.box-icon i {
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 49px;
+}
+.box-icon {
+    display: inline-block;
+    position: absolute;
+	right: 0px;
+    bottom: 0;
+    width: 53px;
+    height: 50px;
+    text-align: center;
+    background: #00c6d7;
+}
+.text-error {
+    color: #c2d9d8;
+    font-size: 1.2rem;
+    font-family: 'Josefin Slab', serif;
+}
+form {
+    margin: 0 auto;
+    width: 100%;
+}
+.submit-forms {
+    text-align: center;
+    margin-top: 2em;
+}
+.form-sub{
+	position:relative;
+    margin-bottom: 20px;
+}
+#emailad, #passwordad {
+    width: 70.6%;
+    padding: 15px 66px 15px 19px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.16);
+    border: 0;
+    border-left: 2px solid #00c6d7;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: #fff;
+    outline: 0;
+    box-shadow: 0 6px 12px 0 #00000066;
+    font-family: 'Open Sans', sans-serif;
+}
+#submitad {
+    text-align: center;
+    border: 0;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 14px 90px;
+    background-color: #00000057;
+    border: 3px solid #ffffff6e;
+    box-shadow: 0 12px 32px 0 #000000b5;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    transition: 0.5s ease-in-out;
+}
+#submitad:hover {
+    color: #00c6d7;
+    border-color: #00c6d7;
+}
+.box-sub {
+    position: relative;
+    display: block;
+    margin-top: 0.5em;
+}
+.box-inf {
+    text-align: center;
+    margin-top: 20px;
+}
+.box-inf span a {
+    text-decoration: none;
+    margin-top: 47px;
+    font-size: 17px;
+    color: #ffffff;
+}
+.box-inf span a:hover {
+    color: #00c6d7;
+    border-color: #00c6d7;
+}
+label.box-sub span, label.box-sub a {
+    color: #fff;
+    font-size: 13px;
+    display: inline;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+label.box-sub  a {
+    display: inline-block;
+	text-decoration:none;
+	float: right;
+	margin-top:4px;
+}
+input.checkbox {
+    background:#fff;
+	cursor: pointer;
+    width: 1.2em;
+    height: 1.2em;
+	margin: 0 6px 0 0!important;
+}
+input.checkbox:before {
+	content: "";
+	position: absolute;
+	width: 1.2em;
+	height: 1.2em;
+	background: inherit;
+	cursor: pointer;
+}
+input.checkbox:after {
+    content: "";
+    transition: 0.4s ease-in-out;
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    z-index: 1;
+    width: 1.1em;
+    height: 1.1em;
+    border: 1px solid #00c6d7;
+}
+input.checkbox:checked:after {
+	transform: rotate(-45deg);
+	height: .5rem;
+	border-color: #00c6d7;
+	border-top-color: transparent;
+	border-right-color: transparent;
+}
+.box-sub input.checkbox:checked:after {
+	transform: rotate(-45deg);
+	height: .5rem;
+	border-color: transparent;
+	border-right-color: transparent;
+	animation: .4s rippling .4s ease;
+	animation-fill-mode: forwards;
+}
+@keyframes rippling {
+	50% {
+		border-left-color: #d24747;
+	}
+	100% {
+		border-left-color: #00c6d7;
+		border-bottom-color: #00c6d7;
+	}
+}

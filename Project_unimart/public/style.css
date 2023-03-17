@@ -1,0 +1,13 @@
+/*Style-css-import*/
+@import '../public/css/import/header.css';
+@import '../public/css/import/footer.css';
+@import '../public/css/import/home.css';
+@import '../public/css/import/cart.css';
+@import '../public/css/import/checkout.css';
+@import '../public/css/import/product.css';
+@import '../public/css/import/grid.css';
+@import '../public/css/import/history.css';
+@import '../public/css/import/post.css';
+@import '../public/css/import/blog.css';
+@import '../public/css/import/login.css';
+@import '../public/css/import/reset.css';

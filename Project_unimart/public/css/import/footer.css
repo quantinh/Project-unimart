@@ -1,0 +1,182 @@
+/* ======================= Footer ======================= */
+.footer {
+    padding-top: 16px;
+    border-top: 4px solid var(--menu-color);
+    background-color: var(--primary-color);
+}
+.footer-heading {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: var(--second-color);
+}
+.footer-list {
+    padding-left: 0;
+    list-style: none;
+}
+.footer-item-link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--body-color);
+    padding: 6px 0;
+    display: flex;
+    align-items: center;
+}
+.footer-item-link:hover {
+    color: var(--text-color);
+    text-decoration: none;
+}
+.footer-item-icon {
+    font-size: 1.6rem;
+    margin: -1px 8px 0 0;
+}
+.footer-download {
+    display: flex;
+}
+.footer-download-qr {
+    width: 80px;
+    height: 80px;
+    border: 1px solid var(--border-color);
+}
+.footer-download-apps {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+}
+.footer-download-apps-link {
+    color: transparent;
+    text-decoration: none;
+}
+.footer-download-app-img {
+    height: 16px;
+    margin: 1px 1px 4px -6px;
+}
+.footer-bottom {
+    border-top: 1px solid var(--border-bottom);
+    padding: 8px 0;
+    background-color: var(--background-color);
+    margin-top: 36px;
+}
+.footer-text {
+    margin: 0;
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+/* ======================= Modal ======================= */
+.main-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+    background-color: #00000099;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn linear 0.3s;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s linear;
+    cursor: zoom-out;
+}
+.main-modal.is-show {
+    opacity: 1;
+    visibility: visible;
+}
+.modal-body {
+    z-index: 10;
+    margin: 0px auto;
+    text-align: center;
+}
+.sale-off-close {
+    position: absolute;
+    top: 0rem;
+    right: 45rem;
+    width: 4.4rem;
+    height: 4.4rem;
+    border: 2px solid #19e3c3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.6rem;
+    color: #19e3c3;
+    cursor: pointer;
+}
+.sale-off-close:hover {
+    border: 2px solid var(--red-color);
+    color: var(--red-color);
+    cursor: pointer;
+}
+/* ======================= Back-top ======================= */
+.back-top {
+    border-radius: 30px !important;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 15px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #37b979;
+    color: var(--white-color);
+    cursor: pointer;
+    padding: 13px 15px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    }
+#myBtn:hover {
+    background-color: var(--text-item);
+}
+/* ======================= Pop-up-check ======================= */
+#popup {
+    display: none;
+    box-shadow: 1px 1px 3px #6e7d88;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    border-radius: 5px;
+    background: var(--hover-item-cart);
+    padding: 10px 39px 26px;
+}
+#popup p {
+    padding: 5px 0;
+}
+.check {
+    display: flex;
+    justify-content: center;
+}
+#opacity {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #1a2429;
+    opacity: 65%;
+    display: none;
+}
+#success {
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn-popup {
+    border-radius: 3px;
+    color: var(--body-color);
+    display: inline-block;
+    padding: 3px 29px;
+    background-color: #6e7d88;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+}
